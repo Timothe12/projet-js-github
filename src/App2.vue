@@ -42,10 +42,13 @@ export default {
   computed: {
     gender() {
       if (this.sex === 'male') {
+        this.message = "bonjour monsieur"
         return 'un homme';
       } else if (this.sex === 'female') {
+        this.message = "bonjour madame"
         return 'une femme';
       }
+      this.message = "bonjour "
       return 'autre';
     }
   }
