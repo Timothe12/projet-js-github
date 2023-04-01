@@ -48,7 +48,7 @@ export default {
         this.message = "bonjour madame"
         return 'une femme';
       }
-      this.message = "bonjour "
+      this.message = "bonjour ";
       return 'autre';
     }
   }
