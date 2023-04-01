@@ -44,7 +44,7 @@ export default {
       if (this.sex === 'male') {
         this.message = "bonjour monsieur"
         return 'un homme';
-      } else if (this.sex === 'female') {
+      } else if (this.sex === 'female') {;
         this.message = "bonjour madame"
         return 'une femme';
       }
